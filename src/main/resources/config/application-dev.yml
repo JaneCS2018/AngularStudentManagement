@@ -42,11 +42,7 @@ spring:
         type: com.zaxxer.hikari.HikariDataSource
         url: jdbc:mysql://localhost:3306/jiuzhangquanzhanke?useUnicode=true&characterEncoding=utf8&useSSL=false&allowPublicKeyRetrieval=true
         username: root
-<<<<<<< HEAD
         password: jOnWwI*ee5o-
-=======
-        password: xiaowangzi123
->>>>>>> f750fdfb8d7863c5f48292985ffc8561408ed5e0
         hikari:
             data-source-properties:
                 cachePrepStmts: true
