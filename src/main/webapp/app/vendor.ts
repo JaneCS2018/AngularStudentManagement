@@ -1,7 +1,7 @@
 /* after changing this file run 'yarn run webpack:build' */
 /* tslint:disable */
 import '../content/css/vendor.css';
-
+import 'leaflet/dist/leaflet.js';
 // Imports all fontawesome core and solid icons
 
 import { library } from '@fortawesome/fontawesome-svg-core';
