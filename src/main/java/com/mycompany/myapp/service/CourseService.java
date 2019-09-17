@@ -46,6 +46,12 @@ public class CourseService {
         }
 
         return courseDtos;
+
+
+    }
+    //Find All courses name larger than 10
+    public List<CourseDto> findAllCoursesLengthLargerThan10FromDB(){
+        return courseRepository.findAllCoursesLengthLargerThan10();
     }
 
     public List<CourseDto> findAllCoursesDtoFromDB(){
